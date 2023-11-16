@@ -1,0 +1,21 @@
+:root {
+    --primary: #11998e;
+    --secondary: #38ef7d;
+    --white: #fff;
+    --gray: #9b9b9b;
+}
+
+.contactMain {
+    margin: 0 auto;
+}
+
+.footerMain {
+    display: flex;
+    justify-content: center;
+}
+
+.footerMain img:hover {
+    transform: scale(1.5);
+    transition-duration: 0s;
+    cursor: pointer;
+}

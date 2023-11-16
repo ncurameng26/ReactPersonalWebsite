@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather:ital,wght@1,300&family=Pacifico&family=Skranji&display=swap");
+
+h1 {
+    font-family: 'Skranji', cursive;
+}
+
+button {
+    font-size: 40px;
+    margin-bottom: 24vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Skranji', cursive;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.uparrow {
+    height: 75px;
+    width: 75px;
+}
+
+.uparrow:hover {
+    transform: scale(1.1);
+    transition-duration: 0s;
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather:ital,wght@1,300&family=Pacifico&family=Skranji&display=swap");
+
+#root {
+    margin: 0 auto;
+}
+
+.About {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+#profilePic {
+    width: 400px;
+    height: 400px;
+}
+
+.skillsCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aboutSkills {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    width: 50%;
+}
+
+.aboutSkillsHero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills img {
+    width: 55px;
+    height: 55px;
+
+}
+
+.skills p {
+    font-family: 'Skranji', cursive;
+    font-size: 22px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.aboutInfo {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.skills {
+    /* border: solid; */
+    width: 150px;
+
+    margin-left: 2px;
+    margin-right: 2px;
+}

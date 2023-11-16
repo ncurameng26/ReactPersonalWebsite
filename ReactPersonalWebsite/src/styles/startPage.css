@@ -1,0 +1,13 @@
+#root {
+    text-align: center;
+}
+
+.startPageContainer {
+    padding-top: 21vh;
+    font-size: 30px;
+    font-family: 'Skranji', cursive;
+}
+
+.startMain {
+    margin: 0 auto;
+}
