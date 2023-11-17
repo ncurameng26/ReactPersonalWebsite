@@ -12,7 +12,7 @@ import ReverseProjects from './ReverseProjects'
 import "../styles/aboutStyles.css"
 import javascript from "../assets/JavaScript.png"
 import react from "../assets/REACT.png"
-import django from "../assets/Django.jpg"
+import django from "../assets/django.jpg"
 import git from "../assets/git.png"
 import node from "../assets/node.png"
 import python from '../assets/python.png'
