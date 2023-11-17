@@ -25,7 +25,7 @@ import weather from '../assets/WeatherCheckScreenshot.png'
 import resume from '../assets/resume.png'
 import resumePDF from '../assets/resumePDF.pdf'
 import website from '../assets/thiswebsite.png'
-import blueWebsite from '../assets/blueWebsite.png'
+import blueWebsite from '../assets/Capture3.png'
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
