@@ -1,6 +1,6 @@
 import React from 'react'
 import Projects from './Projects'
-import clicker from '../assets/smeechyclicker.png'
+import clicker from '../assets/SmeechyClicker.png'
 import firstClicker from '../assets/Capture.png'
 import "../styles/projectsStyles.css"
 import "../styles/aboutStyles.css"
