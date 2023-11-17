@@ -1,10 +1,12 @@
 import React from 'react'
 import Projects from './Projects'
 import clicker from '../assets/smeechyclicker.png'
+import firstClicker from '../assets/Capture.png'
 import "../styles/projectsStyles.css"
 import "../styles/aboutStyles.css"
 import CSS from "../assets/CSS.png"
 import html from "../assets/HTML.png"
+import ogwebsite from '../assets/Capture2.png'
 import Skills from './About/Skills'
 import ReverseProjects from './ReverseProjects'
 import "../styles/aboutStyles.css"
@@ -38,32 +40,46 @@ const ProjectsPage = () => {
     const resumeLink = "https://github.com/ncurameng26/ResumeCoverLetter"
     const personalWebsiteLink = "https://github.com/ncurameng26/ReactPersonalWebsite"
 
+    const smeechyClickerImages = [
+        clicker,
+        firstClicker
+    ];
+
     const websiteImages = [
         website,
-        website
+        ogwebsite,
+    ];
+
+    const weatherImages = [
+        weather,
     ];
 
     return (
         <div>
             <h1 id="title"> Projects </h1>
 
-            <div className="box">
-                <Carousel useKeyboardArrows={true}>
-                    {websiteImages.map((URL, index) => (
-                        <div className="slide">
-                            <img alt="sample_file" src={URL} key={index} />
-
-                        </div>
-                    ))}
-                </Carousel>
-            </div>
 
             {/*START */}
             <div className="projectTotalMain">
                 <div className="project">
                     <div className="projectMain">
+                        <div className="Carousel">
+
+                            <Carousel showThumbs={false} showIndicators={false} showStatus={false}>
+                                {smeechyClickerImages.map((URL, index) => (
+                                    <div className="slide">
+                                        <img className="projectImg" alt="sample_file" src={URL} key={index} />
+                                    </div>
+                                ))}
+                            </Carousel>
+                        </div>
+
+
                         <div className="projectCard">
-                            <Projects projName="Smeechy Clicker" projImg={clicker} projDesc="Web game based on Cookie Clicker. Used Django and Python for the backend and React for the Frontend" subHeading="Fullstack Incremental Clicker Game" gitLink={smeechyClickerLink} git={git} />
+
+
+
+                            <Projects projName="Smeechy Clicker" projImg={clicker} projDesc="Web game based on Cookie Clicker. Used Django and Python for the backend and React for the Frontend. You can scroll to see previous iterations" subHeading="Fullstack Incremental Clicker Game" gitLink={smeechyClickerLink} git={git} projImgList={websiteImages} />
                         </div>
                         <div className="technologies">
                             <h2> Tech Used</h2>
@@ -119,6 +135,18 @@ const ProjectsPage = () => {
 
                 <div className="project">
                     <div className="projectMain">
+
+                        <div className="Carousel">
+
+                            <Carousel showThumbs={false} showIndicators={false} showStatus={false}>
+                                {weatherImages.map((URL, index) => (
+                                    <div className="slide">
+                                        <img className="projectImg" alt="sample_file" src={URL} key={index} />
+                                    </div>
+                                ))}
+                            </Carousel>
+                        </div>
+
                         <div className="projectCard">
                             <Projects projName="Weather Check" projImg={weather} projDesc=" React app that displays weather info from the nearest town in the database using an API endpoint" subHeading="Frontend React Weather App" gitLink={weatherCheckLink} git={git} />
                         </div>
@@ -168,8 +196,21 @@ const ProjectsPage = () => {
 
             <div className="project">
                 <div className="projectMain">
+
+
+                    <div className="Carousel">
+
+                        <Carousel showThumbs={false} showIndicators={false} showStatus={false}>
+                            {websiteImages.map((URL, index) => (
+                                <div className="slide">
+                                    <img className="projectImg" alt="sample_file" src={URL} key={index} />
+                                </div>
+                            ))}
+                        </Carousel>
+
+                    </div>
                     <div className="projectCard">
-                        <Projects projName="Personal Website" projImg={website} projDesc="This website made with HTML, CSS and JS! Primarily used as a project portfolio" subHeading="This website :)" gitLink={personalWebsiteLink} hasTwoLinks={false} git={git} />
+                        <Projects projName="Personal Website" projImg={website} projDesc="This website made with HTML, CSS and JS! Primarily used as a project portfolio. You can scroll to see previous iterations." subHeading="This website :)" gitLink={personalWebsiteLink} hasTwoLinks={false} git={git} />
                     </div>
                     <div className="technologies">
                         <h2> Tech Used</h2>

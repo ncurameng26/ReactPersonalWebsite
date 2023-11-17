@@ -9,6 +9,8 @@
 
 
 
+
+
 #title {
     font-size: 60px;
 }
@@ -41,6 +43,9 @@ h1 {
 .shortText {
     max-width: 600px;
 }
+
+
+
 
 .projectCard img {
     border-radius: 20px;
@@ -103,9 +108,25 @@ h1 {
     margin-bottom: 150px;
 }
 
-.projectImg {
+
+.Carousel {
+    height: 400px;
+    width: 700px;
+}
+
+
+.slide img {
     border: solid;
     color: black;
+    border-radius: 20px;
+    height: 400px;
+    width: 700px;
+}
+
+.projectImg :hover {
+    transform: scale(1);
+    transition-duration: .7s;
+    cursor: pointer;
 }
 
 .revProjectText {
