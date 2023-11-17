@@ -3,7 +3,7 @@ import Skills from './Skills.jsx'
 import "../../styles/aboutStyles.css"
 import html from "../../assets/HTML.png"
 import java from "../../assets/Java.png"
-import javascript from "../../assets/javascript.png"
+import javascript from "../../assets/JavaScript.png"
 import react from "../../assets/REACT.png"
 
 import CSS from "../../assets/CSS.png"
@@ -12,7 +12,7 @@ import next from "../../assets/next.svg"
 import node from "../../assets/node.png"
 
 import git from "../../assets/git.png"
-import gitlab from "../../assets/gitLab.png"
+import gitlab from "../../assets/gitlab.png"
 import python from "../../assets/python.png"
 import c from "../../assets/C+.png"
 import bootstrap from "../../assets/bootstrap.png"
