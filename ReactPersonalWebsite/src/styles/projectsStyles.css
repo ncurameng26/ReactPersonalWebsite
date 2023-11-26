@@ -114,6 +114,12 @@ h1 {
     width: 700px;
 }
 
+.fakeCarousel img:hover {
+    transform: scale(.9);
+    transition-duration: .7s;
+    cursor: pointer;
+}
+
 
 .slide img {
     border: solid;
@@ -121,6 +127,20 @@ h1 {
     border-radius: 20px;
     height: 400px;
     width: 700px;
+}
+
+.fakeCarousel img {
+    border: solid;
+    color: black;
+    border-radius: 20px;
+    height: 400px;
+    width: 700px;
+}
+
+.fakeCarousel img:hover {
+    transform: scale(.9);
+    transition-duration: .7s;
+    cursor: pointer;
 }
 
 .projectImg :hover {

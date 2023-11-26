@@ -56,6 +56,15 @@ const ProjectsPage = () => {
         weather,
     ];
 
+    const BNMImages = [
+        BNM,
+        weather
+    ];
+
+    const ResumeImages = [
+        resume,
+    ];
+
     return (
         <div>
             <h1 id="title"> Projects </h1>
@@ -131,6 +140,16 @@ const ProjectsPage = () => {
                         <div className="projectCard">
                             <ReverseProjects revProjName="Bear Necessities Market" revProjImg={BNM} revProjDesc="Web based app used to record information for WNE's food pantry. Used Libre Food Pantry's open source repository" revSubHeading="Fullstack Food Pantry App" gitLink={bearNecessitiesLink} git={gitlab} />
                         </div>
+                        <div className="Carousel">
+
+                            <Carousel showThumbs={false} showIndicators={false} showStatus={false}>
+                                {BNMImages.map((URL, index) => (
+                                    <div className="slide">
+                                        <img className="projectImg" alt="sample_file" src={URL} key={index} />
+                                    </div>
+                                ))}
+                            </Carousel>
+                        </div>
                     </div>
                 </div>
 
@@ -147,9 +166,11 @@ const ProjectsPage = () => {
                                     </div>
                                 ))}
                             </Carousel>
+
                         </div>
 
                         <div className="projectCard">
+
                             <Projects projName="Weather Check" projImg={weather} projDesc=" React app that displays weather info from the nearest town in the database using an API endpoint" subHeading="Frontend React Weather App" gitLink={weatherCheckLink} git={git} />
                         </div>
                         <div className="technologies">
@@ -190,6 +211,16 @@ const ProjectsPage = () => {
                         </div>
                         <div className="projectCard">
                             <ReverseProjects revProjName="Resume" revProjImg={resume} revProjDesc="I was tired of paying for website subscriptions and I wanted to be extra so I coded my Resume!" revSubHeading="Created using HTML/CSS" gitLink={resumeLink} useLink={resumePDF} git={git} />
+                        </div>
+                        <div className="Carousel">
+
+                            <Carousel showThumbs={false} showIndicators={false} showStatus={false}>
+                                {ResumeImages.map((URL, index) => (
+                                    <div className="slide">
+                                        <img className="projectImg" alt="sample_file" src={URL} key={index} />
+                                    </div>
+                                ))}
+                            </Carousel>
                         </div>
                     </div>
                 </div>
@@ -237,6 +268,46 @@ const ProjectsPage = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="project">
+                <div className="projectMain">
+
+                    <div className="technologies">
+                        <h2> Tech Used</h2>
+                        <div className="aboutSkillsHero">
+                            <div className="skillsCol">
+                                <Skills name="HTML" icon={html} />
+                                <Skills name="CSS" icon={CSS} />
+                                <Skills name="Node.js" icon={node} />
+
+                            </div>
+                            <div className="skillsCol">
+                                <Skills name="JavaScript" icon={javascript} />
+                                <Skills name="Vite" icon={vite} />
+                                <Skills name="Github" icon={git} />
+
+                                {/* You  should make it a card and then have it scrollable to the past versions of the projects */}
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="projectCard">
+                        <ReverseProjects revProjName="New Horizons Website" revProjImg={resume} revProjDesc="My sister wanted a website to show off their music and information for their radio show" revSubHeading="Created using REACT" gitLink={resumeLink} useLink={resumePDF} git={git} />
+                    </div>
+                    <div className="Carousel">
+
+                        <Carousel showThumbs={false} showIndicators={false} showStatus={false}>
+                            {ResumeImages.map((URL, index) => (
+                                <div className="slide">
+                                    <img className="projectImg" alt="sample_file" src={URL} key={index} />
+                                </div>
+                            ))}
+                        </Carousel>
+                    </div>
+                </div>
+            </div>
+
+
 
 
             <hr></hr>

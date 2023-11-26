@@ -24,7 +24,7 @@ const ReverseProjects = (props) => {
                 </div>
                 <div className="projectImageID">
 
-                    <a href={props.useLink}><img className="projectImg" src={props.revProjImg} alt={props.revProjName} />  </a>
+                    {/* <a href={props.useLink}><img className="projectImg" src={props.revProjImg} alt={props.revProjName} />  </a> */}
                 </div>
             </div>
         </div>

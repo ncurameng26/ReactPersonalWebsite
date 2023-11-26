@@ -8,6 +8,7 @@ const Projects = (props) => {
 
     return (
         <div>
+
             <div className="projectMain">
                 <div className="projectText">
                     <h1> {props.projName}</h1>
