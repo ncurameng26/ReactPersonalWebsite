@@ -14,7 +14,7 @@ const AboutInfo = () => {
                     I was an RA for 2 years and a HRA my senior year. I was also on student council, and an E-Board member for
                     the association for computing and machinary. </h2>
                 <br></br>
-                <h2> In my freetime, I like to rockclimb, skate, hike, play video games, and volleyball</h2>
+                <h2> In my freetime, I like to rockclimb, skate, hike, play video games, I love music and  playing volleyball.</h2>
             </div>
         </div>
     )

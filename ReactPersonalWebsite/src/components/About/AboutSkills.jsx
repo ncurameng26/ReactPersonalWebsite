@@ -23,6 +23,8 @@ import express from "../../assets/express.png"
 import sql from "../../assets/sql.png"
 import vite from '../../assets/vite.svg'
 
+import vercel from '../../assets/vercel.png'
+
 {/* <Skills name="HTML" image="test" /> */ }
 
 
@@ -42,6 +44,8 @@ const AboutSkills = () => {
                         <Skills name="React" icon={react} />
                         <Skills name="Vue" icon={vue} />
                         <Skills name="Bootstrap" icon={bootstrap} />
+                        <Skills name="Vite.js" icon={vite} />
+
 
                     </div>
                     <div className="skillsCol">
@@ -51,7 +55,7 @@ const AboutSkills = () => {
                         <Skills name="Django" icon={django} />
                         <Skills name="GitHub" icon={git} />
                         <Skills name="GitLab" icon={gitlab} />
-                        <Skills name="Vite.js" icon={vite} />
+
 
                     </div>
                     <div className="skillsCol">
@@ -61,6 +65,8 @@ const AboutSkills = () => {
                         <Skills name="Docker" icon={docker} />
                         <Skills name="MongoDB" icon={mongo} />
                         <Skills name="SQL" icon={sql} />
+                        <Skills name="Vercel" icon={vercel} />
+
                     </div>
 
                 </div>

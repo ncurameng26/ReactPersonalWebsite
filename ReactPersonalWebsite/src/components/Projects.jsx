@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/projectsStyles.css"
+import links from '../assets/link.png'
 
 
 
@@ -17,6 +18,8 @@ const Projects = (props) => {
                     <div className="imageLinks">
                         <div className="projectImageID">
                             <a href={props.gitLink}><img src={props.git} id="gitImg" />  </a>
+
+                            <a href={props.websiteLink}><img src={links} id="links" />  </a>
 
 
                         </div>

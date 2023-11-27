@@ -98,6 +98,13 @@ h1 {
     height: 100px;
 }
 
+#links {
+    padding-top: 25px;
+    padding-left: 20px;
+    width: 100px;
+    height: 50px;
+}
+
 .imageLinks {
     display: flex;
     justify-content: center;
